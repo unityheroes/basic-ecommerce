@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+/* ================== DARK THEME ================== */
+body.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Navbar */
+body.dark-theme .navbar {
+  background-color: #1e1e1e !important;
+}
+
+body.dark-theme .navbar a.nav-link,
+body.dark-theme .navbar-brand {
+  color: #f8f9fa !important;
+}
+
+/* Cards */
+body.dark-theme .card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border: 1px solid #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-theme .card .card-title,
+body.dark-theme .card .card-text,
+body.dark-theme .card .description {
+  color: #e0e0e0;
+}
+
+body.dark-theme .card .text-muted {
+  color: #aaaaaa !important;
+}
+
+body.dark-theme .card .text-success {
+  color: #84cc16 !important; /* لون أخضر فاتح */
+}
+
+/* Buttons */
+body.dark-theme .btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+body.dark-theme .btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+body.dark-theme .btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+body.dark-theme .btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+body.dark-theme .btn-success:hover {
+  background-color: #157347;
+}
+
+/* Form Input (Search bar) */
+body.dark-theme .form-control {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  border: 1px solid #444;
+}
+
+body.dark-theme .form-control::placeholder {
+  color: #ccc;
+}

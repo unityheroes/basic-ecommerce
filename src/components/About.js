@@ -1,17 +1,26 @@
+
+
 function About() {
   return (
-    <div className="container">
-      <h1>About Us</h1>
-      <p>
-        Welcome to our e-commerce website! We are dedicated to providing you with the best online shopping experience.
-      </p>
-      <p>
-        Our team is committed to offering a wide range of products at competitive prices, along with exceptional customer service.
-      </p>
-      <p>
-        Thank you for choosing us for your shopping needs!
-      </p>
-    </div>
+    <div className="container py-5">
+      <div className="card shadow border-0">
+        <div className="card-body">
+          <h2 className="card-title mb-4">About This Project</h2>
+          <p className="card-text">
+            This is a simple e-commerce website built using <strong>React</strong> and <strong>Bootstrap</strong>. It demonstrates core concepts like routing, context API, dynamic product pages, and a working cart system.
+          </p>
+
+          <h5 className="mt-4">👨‍💻 Developer Info</h5>
+          <ul className="list-group list-group-flush mb-4">
+            <li className="list-group-item">Name: Ahmed Atef</li>
+            <li className="list-group-item">Email: <a href="mailto:ahmedelhabak101@gmail.com">ahmedelhabak101@gmail.com</a></li>
+        
+          </ul>
+
+         </div>
+          </div>
+          </div>
   );
 }
+
 export default About;
